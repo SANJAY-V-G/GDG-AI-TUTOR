@@ -1,0 +1,111 @@
+.dashboard-wrapper {
+  background: #f5f9ff;
+  min-height: 100vh;
+}
+
+.dashboard {
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #333;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar-large {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.stats-section {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: #1e88e5;
+}
+
+.learning-tracker .progress-bar {
+  height: 22px;
+  background: #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.learning-tracker .progress {
+  background: #1e88e5;
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  transition: width 0.4s ease-in-out;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #0d47a1;
+  margin-top: 10px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.course-card h4 {
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #1e88e5;
+  border: 1px solid #1e88e5;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.footer {
+  background: #0d47a1;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}

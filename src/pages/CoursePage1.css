@@ -1,0 +1,92 @@
+.course-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f9fbfc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.course-content {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 60px);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.video-section {
+  flex: 3.5; /* Increased by 7% */
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  border-radius: 8px;
+}
+
+.course-video {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.avatar-section {
+  flex: 1.5; /* Reduced by 7% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.avatar-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.avatar-image {
+  width: 93%; /* Reduced by 7% */
+  height: auto;
+  display: block;
+}
+
+.mouth-overlay {
+  position: absolute;
+  left: 47.57%;
+  top: 34.8%;
+  transform: translate(-50%, -10%);
+}
+
+.message-box {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 150px;
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-y: auto;
+  font-size: 14px;
+  color: #444;
+}
+
+.message {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  .course-content {
+    flex-direction: column;
+  }
+
+  .video-section,
+  .avatar-section {
+    width: 100%;
+    margin-right: 0;
+  }
+}

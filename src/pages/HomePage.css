@@ -1,0 +1,66 @@
+/* src/pages/HomePage.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.homepage-wrapper {
+  overflow-x: hidden;
+}
+
+.home-container {
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #2196f3, #64b5f6);
+  color: white;
+  text-align: center;
+  max-width: 100%;
+}
+
+.button-row {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home-button {
+  background-color: white;
+  color: #1976d2;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.home-button:hover {
+  background-color: #e3f2fd;
+  border: 2px solid #1976d2;
+}
+
+.bot-image-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+  padding: 0 10px;
+  max-width: 100%;
+}
+
+.bot-image-row img {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
